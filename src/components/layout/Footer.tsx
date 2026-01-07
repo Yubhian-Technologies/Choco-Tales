@@ -9,7 +9,7 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="font-display text-2xl font-semibold text-primary">
-              Cocoa Crafted
+              Choco-Tales
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Handcrafted premium chocolates made with love in India. 
@@ -102,7 +102,7 @@ export const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2024 Cocoa Crafted. All rights reserved.
+              © 2024 Choco-Tales. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
               Made with ❤️ in India | GST Included in All Prices

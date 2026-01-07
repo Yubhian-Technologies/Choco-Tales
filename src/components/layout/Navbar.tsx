@@ -24,7 +24,7 @@ export const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <span className="font-display text-2xl font-semibold text-primary">
-            Cocoa Crafted
+            Choco-Tales
           </span>
         </Link>
 

@@ -40,7 +40,7 @@ const About = () => {
               Crafted with Love, Made in India
             </h1>
             <p className="text-lg text-muted-foreground">
-              Born from a passion for authentic chocolate-making, Cocoa Crafted brings you 
+              Born from a passion for authentic chocolate-making, Choco-Tales brings you 
               handcrafted chocolates that celebrate real ingredients and traditional craftsmanship.
             </p>
           </div>
@@ -80,7 +80,7 @@ const About = () => {
                 </p>
                 <p>
                   After months of experimentation in a small Mumbai kitchen, perfecting recipes 
-                  with real cocoa, fresh milk, and premium dry fruits, Cocoa Crafted was born. 
+                  with real cocoa, fresh milk, and premium dry fruits, Choco-Tales was born. 
                   Today, we still make every bar with the same care and attention to detail 
                   as those first kitchen experiments.
                 </p>

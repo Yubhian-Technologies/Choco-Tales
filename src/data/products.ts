@@ -1,10 +1,15 @@
 import SignatureDarkChocolate from '@/assets/Signature Dark Chocolate.jpg';
 import Milkchocolate from '@/assets/Milk chocolate.jpg';
 import DryFruitChocolate from '@/assets/dry fruit chocolate.jpg';
-import DarkIntense from '@/assets/Dark Intense.jpg'
-import ClassicTrioPack from '@/assets/Classic Trio Pack.jpg'
-import LuxuryGiftBox from '@/assets/Luxury Gift Box.jpg'
-import FamilyFavPack from '@/assets/Family Fav Pack.jpg'
+import DarkIntense from '@/assets/Dark Intense.jpg';
+import ClassicTrioPack from '@/assets/Classic Trio Pack.jpg';
+import LuxuryGiftBox from '@/assets/Luxury Gift Box.jpg';
+import FamilyFavPack from '@/assets/Family Fav Pack.jpg';
+import FigandAlmondBliss from '@/assets/Fig and Almond Bilss.jpg';
+import DarkLoversCollection from '@/assets/Dark Lovers Collection.jpg';
+import FestiveTreasureBox from '@/assets/Festive Treasure Box.jpg';
+import HazelnutMilkChocolate from '@/assets/Hazelnut Milk Chocolate.jpg'
+
 
 export interface Product {
   id: string;
@@ -78,7 +83,7 @@ export const products: Product[] = [
     variant: 'milk',
     weight: '50g',
     ingredients: ['Cocoa Butter', 'Hazelnuts', 'Whole Milk Powder', 'Sugar', 'Cocoa Mass'],
-    image: '/placeholder.svg',
+    image: HazelnutMilkChocolate,
     featured: true
   },
   {
@@ -90,7 +95,7 @@ export const products: Product[] = [
     variant: 'dry-fruit',
     weight: '50g',
     ingredients: ['Cocoa Mass', 'Dried Figs', 'Almonds', 'Cocoa Butter', 'Sugar'],
-    image: '/placeholder.svg',
+    image: FigandAlmondBliss,
   },
 
   // Combo Packs
@@ -115,7 +120,7 @@ export const products: Product[] = [
     variant: 'dark',
     weight: '150g (3 x 50g)',
     ingredients: ['Signature Dark', 'Dark Intense 72%', 'Dark with Sea Salt'],
-    image: '/placeholder.svg',
+    image: DarkLoversCollection,
   },
   {
     id: 'family-pack-6',
@@ -162,7 +167,7 @@ export const products: Product[] = [
     variant: 'assorted',
     weight: '250g (5 x 50g)',
     ingredients: ['Curated Festival Collection'],
-    image: '/placeholder.svg',
+    image: FestiveTreasureBox,
   },
 ];
 
