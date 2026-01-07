@@ -1,3 +1,11 @@
+import SignatureDarkChocolate from '@/assets/Signature Dark Chocolate.jpg';
+import Milkchocolate from '@/assets/Milk chocolate.jpg';
+import DryFruitChocolate from '@/assets/dry fruit chocolate.jpg';
+import DarkIntense from '@/assets/Dark Intense.jpg'
+import ClassicTrioPack from '@/assets/Classic Trio Pack.jpg'
+import LuxuryGiftBox from '@/assets/Luxury Gift Box.jpg'
+import FamilyFavPack from '@/assets/Family Fav Pack.jpg'
+
 export interface Product {
   id: string;
   name: string;
@@ -22,7 +30,7 @@ export const products: Product[] = [
     variant: 'dark',
     weight: '50g',
     ingredients: ['Premium Cocoa Mass', 'Cocoa Butter', 'Sugar', 'Natural Vanilla'],
-    image: '/placeholder.svg',
+    image: SignatureDarkChocolate,
     featured: true,
   },
   {
@@ -34,7 +42,7 @@ export const products: Product[] = [
     variant: 'milk',
     weight: '50g',
     ingredients: ['Cocoa Butter', 'Whole Milk Powder', 'Sugar', 'Cocoa Mass', 'Natural Vanilla'],
-    image: '/placeholder.svg',
+    image: Milkchocolate,
     featured: true,
   },
   {
@@ -46,7 +54,7 @@ export const products: Product[] = [
     variant: 'dry-fruit',
     weight: '50g',
     ingredients: ['Cocoa Mass', 'Almonds', 'Cashews', 'Raisins', 'Cocoa Butter', 'Sugar'],
-    image: '/placeholder.svg',
+    image: DryFruitChocolate,
     featured: true,
   },
   {
@@ -58,7 +66,8 @@ export const products: Product[] = [
     variant: 'dark',
     weight: '50g',
     ingredients: ['Premium Cocoa Mass 72%', 'Cocoa Butter', 'Cane Sugar'],
-    image: '/placeholder.svg',
+    image: DarkIntense,
+    featured: true
   },
   {
     id: 'milk-hazelnut-50g',
@@ -70,6 +79,7 @@ export const products: Product[] = [
     weight: '50g',
     ingredients: ['Cocoa Butter', 'Hazelnuts', 'Whole Milk Powder', 'Sugar', 'Cocoa Mass'],
     image: '/placeholder.svg',
+    featured: true
   },
   {
     id: 'fig-almond-50g',
@@ -93,7 +103,7 @@ export const products: Product[] = [
     variant: 'assorted',
     weight: '150g (3 x 50g)',
     ingredients: ['Dark Chocolate', 'Milk Chocolate', 'Dry Fruit Chocolate'],
-    image: '/placeholder.svg',
+    image: ClassicTrioPack,
     featured: true,
   },
   {
@@ -116,7 +126,7 @@ export const products: Product[] = [
     variant: 'assorted',
     weight: '300g (6 x 50g)',
     ingredients: ['2x Dark', '2x Milk', '2x Dry Fruit Chocolates'],
-    image: '/placeholder.svg',
+    image: FamilyFavPack,
   },
 
   // Gift Boxes
@@ -129,7 +139,7 @@ export const products: Product[] = [
     variant: 'assorted',
     weight: '200g (4 x 50g)',
     ingredients: ['Signature Dark', 'Creamy Milk', 'Dry Fruit Delight', 'Hazelnut Milk'],
-    image: '/placeholder.svg',
+    image: LuxuryGiftBox,
     featured: true,
   },
   {
